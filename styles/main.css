@@ -1,0 +1,17 @@
+h1 {
+  text-align: center;
+}
+label {
+  margin-left: 25em;
+}
+
+#forecast li {
+  background-color: #B9B9DD;
+  display: inline-block;
+  margin-top: 3em;
+  margin-right: 5px;
+  height: 260px;
+  width: 200px;
+  padding: 1em;
+}
+
