@@ -4,17 +4,21 @@
     <title>Weather Forecast</title>
   </head>
     <link rel="stylesheet" href="styles/main.css"/>
- <body>
+ <body id="main">
     <form id="zipcode">
       <h1> Weather Forecast </h1>
       <label>Please Enter your Zipcode</label>
       <input type="number" value="select" class="place"></input>
       <input type="button" value="Submit" class="send"></input><br>
-<!--<input type="button" value="my location" class="geo"></input>-->
-      <h2 id="cityName"></h2>
+      <!--<br>
+      <label id="cityName"> Current City </label>
+      <input type="text" value="" class="current-place"></input>
+      <input type="button" value="Current City" class="geo"></input>-->
     </form>
     <ul id="forecast">
     </ul>
  </body>
-<script type='text/javascript' src='scripts\main.js'></script>
+ <script src="//code.jquery.com/jquery-1.11.0.min.js"></script>
+ <script src="//cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
+<script type='text/javascript' src='scripts/main.js'></script>
 </html>

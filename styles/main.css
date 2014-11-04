@@ -1,16 +1,30 @@
+#main{
+background-image: url(../images/wallpaper.jpg);
+font-size: 18px;
+}
+
 h1 {
   text-align: center;
 }
 label {
   margin-left: 25em;
 }
+/*input.current-place {
+	margin-left: 48em;
+}*/
+#cityName {
+	margin-right: 0;
+	margin-left: 30.5em;
+}
 
 #forecast li {
-  background-color: #B9B9DD;
+  background-color: #FFF;
+  border-radius: 10px;
   display: inline-block;
+  font-weight: bold;
   margin-top: 3em;
   margin-right: 5px;
-  height: 260px;
+  height: 250px;
   width: 200px;
   padding: 1em;
 }
