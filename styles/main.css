@@ -9,20 +9,16 @@ h1 {
 label {
   margin-left: 25em;
 }
-/*input.current-place {
-	margin-left: 48em;
-}*/
-#cityName {
-	margin-right: 0;
-	margin-left: 30.5em;
+.city {
+  text-align: center;
+	margin-bottom: 1em;
 }
-
 #forecast li {
   background-color: #FFF;
   border-radius: 10px;
   display: inline-block;
   font-weight: bold;
-  margin-top: 3em;
+  margin-top: 1em;
   margin-right: 5px;
   height: 250px;
   width: 200px;
